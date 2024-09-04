@@ -21,6 +21,8 @@ const FunctionComponent = (props) => {
         author is {props.author}.
       </h4>
       <input onChange={(e) => setChangeName(e.target.value)} />
+      <br />
+      <br />
       <button onClick={() => props.setName(changeName)}>Change name</button>
     </div>
   );
